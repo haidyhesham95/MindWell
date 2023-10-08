@@ -4,21 +4,32 @@ import 'package:mind_well/Const/colors.dart';
 
 
 class Custom_Text_Field extends StatelessWidget {
-   Custom_Text_Field({super.key, required this.hintText,required this.keyboardType, required this.obscureText});
+   Custom_Text_Field({super.key, required this.hintText,required this.keyboardType, required this.obscureText,required this.prefixIcon,this.suffixIcon});
   String? hintText;
    bool obscureText ;
    TextInputType? keyboardType;
+   Widget? prefixIcon;
+   Widget? suffixIcon;
   @override
   Widget build(BuildContext context) {
     return SizedBox(
       height: 38.h > 50 ? 38.h : 50,
-      width: 150.w > 420 ? 150.w : 420,
+      width: 110.w > 330 ? 110.w : 330,
       child: TextFormField(
         cursorColor: kGround,
         keyboardType:keyboardType,
         obscureText: obscureText,
 
+
         decoration: InputDecoration(
+          prefixIcon: prefixIcon,
+          prefixIconColor:
+               Colors.brown,
+          suffixIcon:suffixIcon ,
+          suffixIconColor: Colors.brown ,
+
+
+
           labelText: hintText,
           labelStyle: TextStyle(
             color: Colors.brown

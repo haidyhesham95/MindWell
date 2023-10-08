@@ -15,7 +15,7 @@ class Button_Google extends StatelessWidget {
       color: kBrown,
       child:  Container(
         height: 38.h > 50 ? 38.h : 50,
-        width: 120.w > 300 ? 120.w : 300,
+        width: 80.w > 220 ? 80.w : 220,
         child: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [

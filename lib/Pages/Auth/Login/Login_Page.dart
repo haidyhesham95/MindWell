@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:iconly/iconly.dart';
 import 'package:mind_well/Const/Styels.dart';
 import 'package:mind_well/Const/colors.dart';
 import 'package:mind_well/Pages/Auth/Sign_up/SignUp_Page.dart';
@@ -31,7 +32,7 @@ class Login_Page extends StatelessWidget {
               Column(
                 children: [
                   Padding(
-                    padding:  EdgeInsets.only(right: 100.w > 230 ? 100.w : 230,),
+                    padding:  EdgeInsets.only(right: 70.w > 140 ? 55.w : 140,),
                     child: Text('Welcome Back',style: Styles.textStyle28,
 
                     ),
@@ -42,11 +43,11 @@ class Login_Page extends StatelessWidget {
                     height: 20.h,
                   ),
 
-                  Custom_Text_Field(hintText: 'Email', keyboardType: TextInputType.emailAddress, obscureText: false),
+                  Custom_Text_Field(hintText: 'Email', keyboardType: TextInputType.emailAddress, obscureText: false,prefixIcon: Icon(IconlyLight.message),),
                   SizedBox(
                     height: 15.h,
                   ),
-                  Custom_Text_Field(hintText: 'Password', keyboardType: TextInputType.visiblePassword, obscureText: true),
+                  Custom_Text_Field(hintText: 'Password', keyboardType: TextInputType.visiblePassword, obscureText: true,prefixIcon: Icon(IconlyLight.password),suffixIcon: Icon(Icons.visibility),),
                   SizedBox(
                     height: 40.h,
                   ),

@@ -31,6 +31,7 @@ dependencies:
   firebase_core: ^2.17.0
   google_fonts: ^6.1.0
   flutter_screenutil: ^5.9.0
+  iconly: ^1.0.1
 
   flutter:
     sdk: flutter
