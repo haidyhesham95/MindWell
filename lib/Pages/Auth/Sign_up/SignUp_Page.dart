@@ -107,14 +107,7 @@ class SignUp_Page extends StatelessWidget {
                       SizedBox(
                         height: 15.h,
                       ),
-                      Row(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          Text('Sign In With Google',style: Styles.textStyle20),
-                          SizedBox(width:8,),
-                          Image.asset('assets/images/download.png',height: 30,),
-                        ],
-                      ),
+
 
 
                     ],

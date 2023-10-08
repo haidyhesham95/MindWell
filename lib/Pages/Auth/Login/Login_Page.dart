@@ -3,6 +3,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:mind_well/Const/Styels.dart';
 import 'package:mind_well/Const/colors.dart';
 import 'package:mind_well/Pages/Auth/Sign_up/SignUp_Page.dart';
+import 'package:mind_well/Widget/Button_Google.dart';
 import 'package:mind_well/Widget/Custom_Button.dart';
 import 'package:mind_well/Widget/Custom_TextButton.dart';
 import 'package:mind_well/Widget/Custom_Text_Field.dart';
@@ -60,6 +61,12 @@ class Login_Page extends StatelessWidget {
                     },
                     data: 'Sign In',
                   ),
+                  SizedBox(
+                    height: 20.h,
+                  ),
+                  Button_Google(
+                    onPressed: (){},
+                      data: 'Sign In with'),
                   SizedBox(
                     height: 8.h,
                   ),
