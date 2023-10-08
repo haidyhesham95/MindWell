@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:mind_well/Const/Styels.dart';
 import 'package:mind_well/Const/colors.dart';
+import 'package:mind_well/Pages/Auth/Sign_up/SignUp_Page.dart';
 import 'package:mind_well/Widget/Custom_Button.dart';
 import 'package:mind_well/Widget/Custom_TextButton.dart';
 import 'package:mind_well/Widget/Custom_Text_Field.dart';
@@ -49,7 +50,14 @@ class Login_Page extends StatelessWidget {
                     height: 40.h,
                   ),
                   Custom_Button(
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.pushReplacement(
+                        context,
+                        MaterialPageRoute(
+                          builder:(context)=> SignUp_Page(),
+                        ),
+                      );
+                    },
                     data: 'Sign In',
                   ),
                   SizedBox(

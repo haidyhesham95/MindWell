@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:mind_well/Login_Page.dart';
+import 'package:mind_well/Pages/Auth/Login/Login_Page.dart';
+import 'package:mind_well/Pages/Auth/Sign_up/SignUp_Page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       builder: (_,context2){
         return MaterialApp(
             debugShowCheckedModeBanner: false,
-            title: 'Flutter Demo',
+
 
             home: Login_Page()
         );
