@@ -13,7 +13,7 @@ class Custom_Text_Field extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: 38.h > 50 ? 38.h : 50,
+      height: 41.h > 58 ? 41.h : 58,
       width: 110.w > 330 ? 110.w : 330,
       child: TextFormField(
         cursorColor: kGround,
@@ -36,21 +36,21 @@ class Custom_Text_Field extends StatelessWidget {
           ),
           fillColor: kWhite,
           focusedBorder: OutlineInputBorder(
-            borderRadius:  BorderRadius.circular(12),
+            borderRadius:  BorderRadius.circular(18),
             borderSide: const BorderSide(
               color: kBrown,
               width: 1.5,
             ),
           ),
           enabledBorder: OutlineInputBorder(
-              borderRadius: BorderRadius.circular(12),
+              borderRadius: BorderRadius.circular(18),
               borderSide: const BorderSide(
                 color: kBrown,
                 width:1.5,
               )
           ),
           filled: true,
-          contentPadding: const EdgeInsets.all(20),
+          contentPadding: const EdgeInsets.all(18),
         ),
 
       ),

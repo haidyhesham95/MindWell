@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 import '../Const/Styels.dart';
 import '../Const/colors.dart';
@@ -12,25 +13,23 @@ class Button_Google extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialButton(
       onPressed: onPressed,
-      color: kBrown,
-      child:  Container(
-        height: 38.h > 50 ? 38.h : 50,
-        width: 80.w > 220 ? 80.w : 220,
-        child: Row(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Text(
-              data,
-              style: Styles.textStyle10sp,
 
-            ),
-            SizedBox(width: 8,),
-            Image.asset('assets/images/download.png',height: 30,),
-          ],
-        ),
+      child:  Row(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Text(
+            data,
+            style: GoogleFonts.courgette(
+                color: Colors.black54,
+            fontSize: 18)
+
+          ),
+          SizedBox(width: 8,),
+          Image.asset('assets/images/download.png',height: 23,),
+        ],
       ),
       shape: OutlineInputBorder(
-        borderRadius: BorderRadius.circular(12),
+        borderRadius: BorderRadius.circular(18),
         borderSide: BorderSide.none,
       ),
     );

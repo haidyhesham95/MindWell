@@ -14,7 +14,7 @@ class Custom_Button extends StatelessWidget {
       onPressed: onPressed,
       color: kBrown,
       child:  Container(
-        height: 38.h > 50 ? 38.h : 50,
+        height: 40.h > 54 ? 40.h : 54,
         width: 80.w > 220 ? 80.w : 220,
         child: Center(
           child: Text(
@@ -25,7 +25,7 @@ class Custom_Button extends StatelessWidget {
         ),
       ),
       shape: OutlineInputBorder(
-        borderRadius: BorderRadius.circular(12),
+        borderRadius: BorderRadius.circular(18),
         borderSide: BorderSide.none,
       ),
     );

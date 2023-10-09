@@ -94,7 +94,7 @@ class SignUp_Page extends StatelessWidget {
                       SizedBox(
                           width:  80.w > 300 ? 80.w : 300,
                           child: Custom_Text_Field(
-                              prefixIcon: Icon(IconlyLight.password),hintText: 'Password', keyboardType: TextInputType.visiblePassword, obscureText: true)),
+                              prefixIcon: Icon(IconlyLight.lock),hintText: 'Password', keyboardType: TextInputType.visiblePassword, obscureText: true)),
 
                       SizedBox(
                         height: 50.h,

@@ -15,6 +15,13 @@ abstract class Styles {
 
 
   ) ;
+
+  static TextStyle textStyle18 = GoogleFonts.courgette(
+
+    fontSize: 18,
+
+
+  ) ;
   static TextStyle textStyle28= GoogleFonts.courgette(
 
       fontSize: 28,
@@ -29,6 +36,11 @@ abstract class Styles {
   static TextStyle textStyle20= GoogleFonts.courgette(
 
     fontSize: 20,
+
+  );
+  static TextStyle textStyle25= GoogleFonts.courgette(
+
+    fontSize: 25,
 
   );
 

@@ -47,9 +47,9 @@ class Login_Page extends StatelessWidget {
                   SizedBox(
                     height: 15.h,
                   ),
-                  Custom_Text_Field(hintText: 'Password', keyboardType: TextInputType.visiblePassword, obscureText: true,prefixIcon: Icon(IconlyLight.password),suffixIcon: Icon(Icons.visibility),),
+                  Custom_Text_Field(hintText: 'Password', keyboardType: TextInputType.visiblePassword, obscureText: true,prefixIcon: Icon(IconlyLight.lock),suffixIcon: Icon(Icons.visibility),),
                   SizedBox(
-                    height: 40.h,
+                    height: 30.h,
                   ),
                   Custom_Button(
                     onPressed: () {
@@ -62,15 +62,14 @@ class Login_Page extends StatelessWidget {
                     },
                     data: 'Sign In',
                   ),
-                  SizedBox(
-                    height: 20.h,
-                  ),
+
                   Button_Google(
                     onPressed: (){},
-                      data: 'Sign In with'),
+                      data: 'Continue With Google'),
                   SizedBox(
-                    height: 8.h,
+                    height: 3.h,
                   ),
+
                   Custom_TextButton(text: 'Don\'t have an account ?',data:' Sign Up',onPressed: (){
 
 
