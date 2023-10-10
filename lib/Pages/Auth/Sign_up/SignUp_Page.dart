@@ -20,7 +20,7 @@ class SignUp_Page extends StatelessWidget {
           child: Column(
 
             children: [
-              SizedBox(height: 10,),
+              const SizedBox(height: 10,),
               Column(
                 mainAxisAlignment: MainAxisAlignment.start,
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -45,14 +45,14 @@ class SignUp_Page extends StatelessWidget {
                   ),
                 ],
               ),
-              SizedBox(height: 10,),
+              const SizedBox(height: 10,),
               Center(
                 child: Container(
                   height: 550.h > 550 ? 550.h : 550 ,
                   width:  300.w > 200 ? 320.w : 300 ,
                   decoration: BoxDecoration(
                     color: kWhite.withOpacity(0.7),
-                      borderRadius: BorderRadius.only(
+                      borderRadius: const BorderRadius.only(
                         bottomLeft: Radius.circular(0),
                         topLeft: Radius.circular(0),
                         topRight: Radius.circular(70),
@@ -67,7 +67,7 @@ class SignUp_Page extends StatelessWidget {
                       SizedBox(
                         width:  80.w > 300 ? 80.w : 300,
                         child: Custom_Text_Field(
-                            prefixIcon: Icon(IconlyLight.profile),
+                            prefixIcon: const Icon(IconlyLight.profile),
                             hintText: 'Enter Your Name', keyboardType: TextInputType.name, obscureText: false),
                       ),
                       SizedBox(
@@ -76,7 +76,7 @@ class SignUp_Page extends StatelessWidget {
                       SizedBox(
                         width:  80.w > 300 ? 80.w : 300,
                         child: Custom_Text_Field(
-                            prefixIcon: Icon(Icons.phone),
+                            prefixIcon: const Icon(Icons.phone),
                             hintText: 'Enter Your Phone', keyboardType: TextInputType.phone, obscureText: false),
                       ),
                       SizedBox(
@@ -85,7 +85,7 @@ class SignUp_Page extends StatelessWidget {
                       SizedBox(
                         width:  80.w > 300 ? 80.w : 300,
                         child: Custom_Text_Field(
-                            prefixIcon: Icon(IconlyLight.message),
+                            prefixIcon: const Icon(IconlyLight.message),
                             hintText: '@gmail.com', keyboardType: TextInputType.emailAddress, obscureText: false),
                       ),
                       SizedBox(
@@ -94,10 +94,10 @@ class SignUp_Page extends StatelessWidget {
                       SizedBox(
                           width:  80.w > 300 ? 80.w : 300,
                           child: Custom_Text_Field(
-                              prefixIcon: Icon(IconlyLight.lock),hintText: 'Password', keyboardType: TextInputType.visiblePassword, obscureText: true)),
+                              prefixIcon: const Icon(IconlyLight.lock),hintText: 'Password', keyboardType: TextInputType.visiblePassword, obscureText: true)),
 
                       SizedBox(
-                        height: 50.h,
+                        height: 80,
                       ),
                       SizedBox(
                         width: 80.w > 220 ? 55.w : 220,
@@ -106,9 +106,7 @@ class SignUp_Page extends StatelessWidget {
                           data: 'Sign Up',
                         ),
                       ),
-                      SizedBox(
-                        height: 15.h,
-                      ),
+
 
 
 
