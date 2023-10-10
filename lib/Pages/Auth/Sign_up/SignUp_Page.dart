@@ -53,10 +53,10 @@ class SignUp_Page extends StatelessWidget {
                   decoration: BoxDecoration(
                     color: kWhite.withOpacity(0.7),
                       borderRadius: BorderRadius.only(
-                        bottomLeft: Radius.circular(70),
-                        topLeft: Radius.circular(10),
+                        bottomLeft: Radius.circular(0),
+                        topLeft: Radius.circular(0),
                         topRight: Radius.circular(70),
-                        bottomRight: Radius.circular(10),
+                        bottomRight: Radius.circular(70),
                       )
                   ),
                   child: Column(
@@ -68,7 +68,7 @@ class SignUp_Page extends StatelessWidget {
                         width:  80.w > 300 ? 80.w : 300,
                         child: Custom_Text_Field(
                             prefixIcon: Icon(IconlyLight.profile),
-                            hintText: 'Name', keyboardType: TextInputType.name, obscureText: false),
+                            hintText: 'Enter Your Name', keyboardType: TextInputType.name, obscureText: false),
                       ),
                       SizedBox(
                         height: 15.h,
@@ -77,7 +77,7 @@ class SignUp_Page extends StatelessWidget {
                         width:  80.w > 300 ? 80.w : 300,
                         child: Custom_Text_Field(
                             prefixIcon: Icon(Icons.phone),
-                            hintText: 'phone', keyboardType: TextInputType.phone, obscureText: false),
+                            hintText: 'Enter Your Phone', keyboardType: TextInputType.phone, obscureText: false),
                       ),
                       SizedBox(
                         height: 15.h,
@@ -86,7 +86,7 @@ class SignUp_Page extends StatelessWidget {
                         width:  80.w > 300 ? 80.w : 300,
                         child: Custom_Text_Field(
                             prefixIcon: Icon(IconlyLight.message),
-                            hintText: 'Email', keyboardType: TextInputType.emailAddress, obscureText: false),
+                            hintText: '@gmail.com', keyboardType: TextInputType.emailAddress, obscureText: false),
                       ),
                       SizedBox(
                         height: 15.h,

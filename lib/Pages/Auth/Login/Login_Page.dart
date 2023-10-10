@@ -43,11 +43,11 @@ class Login_Page extends StatelessWidget {
                     height: 20.h,
                   ),
 
-                  Custom_Text_Field(hintText: 'Email', keyboardType: TextInputType.emailAddress, obscureText: false,prefixIcon: Icon(IconlyLight.message),),
+                  Custom_Text_Field(hintText: 'Enter Your Email', keyboardType: TextInputType.emailAddress, obscureText: false,prefixIcon: Icon(IconlyLight.message),),
                   SizedBox(
                     height: 15.h,
                   ),
-                  Custom_Text_Field(hintText: 'Password', keyboardType: TextInputType.visiblePassword, obscureText: true,prefixIcon: Icon(IconlyLight.lock),suffixIcon: Icon(Icons.visibility),),
+                  Custom_Text_Field(hintText: 'Enter your Password', keyboardType: TextInputType.visiblePassword, obscureText: true,prefixIcon: Icon(IconlyLight.lock),suffixIcon: Icon(Icons.visibility),),
                   SizedBox(
                     height: 30.h,
                   ),

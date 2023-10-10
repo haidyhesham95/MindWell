@@ -30,10 +30,14 @@ class Custom_Text_Field extends StatelessWidget {
 
 
 
-          labelText: hintText,
-          labelStyle: TextStyle(
+         // labelText: hintText,
+         //  labelStyle: TextStyle(
+         //    color: Colors.brown
+         //  ),
+          hintText: hintText,
+          hintStyle:TextStyle(
             color: Colors.brown
-          ),
+            ),
           fillColor: kWhite,
           focusedBorder: OutlineInputBorder(
             borderRadius:  BorderRadius.circular(18),
